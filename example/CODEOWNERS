@@ -1,0 +1,8 @@
+# Info table about owners in this project
+## name handle phone other-field
+## @noahm @cathadan 123-555-4567 other-info
+## @org/feature-team @feature-team 456-555-7890 other-info
+
+* @org/feature-team
+
+/lint-snaps @noahm

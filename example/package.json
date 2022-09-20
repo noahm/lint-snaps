@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "lint": "eslint",
+    "lint-snaps": "node ../dist/index.js --config .eslintrc-snaps.js --outDir lint-snaps",
+    "ci:lint": "eslint && npm run lint-snaps"
+  },
+  "devDependencies": {
+    "@typescript-eslint/parser": "^5.29.0"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "lint-snaps",
+  "version": "1.0.0",
+  "bin": "dist/index.js",
+  "author": "Noah Manneschmidt <noah@manneschmidt.net>",
+  "license": "Apache-2.0",
+  "scripts": {
+    "build": "tsc",
+    "prepack": "tsc"
+  },
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "eslint": "^8.0.0",
+    "yargs": "^17.0.0"
+  },
+  "devDependencies": {
+    "@types/eslint": "^8.4.3",
+    "@types/node": "^16",
+    "@types/yargs": "^17.0.10",
+    "typescript": "^4.7.3"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}
